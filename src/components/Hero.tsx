@@ -1,3 +1,4 @@
+deploy cheyaku aagu
 import { motion } from 'framer-motion';
 import { TypeAnimation } from './TypeAnimation';
 import { personalInfo } from '../data/portfolioData';
