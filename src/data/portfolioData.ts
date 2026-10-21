@@ -103,49 +103,82 @@ export const skills: Skill[] = [
   { name: "AI Tools", icon: "🤖", category: "Tools", level: 85 },
 ];
 
+
 export const projects: Project[] = [
   {
     title: "JARVIS AI Assistant",
-    description: "An intelligent AI assistant inspired by Iron Man's JARVIS, capable of voice commands, natural language processing, and system automation.",
+    description:
+      "An intelligent AI assistant inspired by Iron Man's JARVIS, designed for voice commands, natural language processing, and desktop task automation.",
     features: [
-      "Voice Commands with Real-time Processing",
-      "Advanced AI Chat with Context Awareness",
-      "System Automation & Task Management",
-      "Smart Assistant with Multi-modal Capabilities"
+      "Voice Commands and Real-time Processing",
+      "AI Chat with Context Awareness",
+      "Desktop System Automation",
+      "Multimodal Assistant Capabilities",
     ],
-    techStack: ["Python", "NLP", "Voice Recognition", "Machine Learning", "OpenAI API", "Tkinter"],
+    techStack: [
+      "Python",
+      "NLP",
+      "Voice Recognition",
+      "Machine Learning",
+      "OpenAI API",
+      "Tkinter",
+    ],
     github: "https://github.com/balupandi/jarvis-ai",
     live: "#",
-    gradient: "from-purple-600 via-blue-500 to-cyan-400"
+    gradient: "from-purple-600 via-blue-500 to-cyan-400",
   },
   {
-    title: "Church Management System",
-    description: "A comprehensive web application for managing church operations including member management, events, and administrative tasks.",
+    title: "ShootOutMaxx",
+    description:
+      "A sports photography and instant-shoot booking platform designed to connect customers with photography services through a streamlined online experience.",
     features: [
-      "Member Management with Profiles & Analytics",
-      "Events Management with Calendar Integration",
-      "Admin Dashboard with Real-time Data",
-      "Fully Responsive & Mobile-first Design"
+      "Online Photography Booking Experience",
+      "Sports and Event Photography Focus",
+      "Responsive Website Interface",
+      "Simple Customer Booking Journey",
     ],
-    techStack: ["React", "Node.js", "Express", "MongoDB", "Bootstrap", "REST API"],
-    github: "https://github.com/balupandi/church-management",
-    live: "#",
-    gradient: "from-emerald-500 via-teal-500 to-cyan-500"
+    techStack: ["React", "TypeScript", "Tailwind CSS", "Web Development"],
+    github: "#",
+    live: "https://shootoutmaxx.in",
+    gradient: "from-orange-500 via-rose-500 to-purple-500",
+  },
+  {
+    title: "LookMint",
+    description:
+      "A men's fashion discovery platform that helps users explore styles, discover products, save looks, and match outfit ideas to their budgets.",
+    features: [
+      "Product Discovery and Category Browsing",
+      "Search and Price Filtering",
+      "Saved Looks and Wishlist Experience",
+      "Style Inspiration and Budget Outfit Matching",
+    ],
+    techStack: ["React", "TypeScript", "Fashion Discovery", "Web Development"],
+    github: "#",
+    live: "https://thread-mens-style.pandibalu30.chatgpt.site",
+    gradient: "from-emerald-500 via-teal-500 to-lime-400",
   },
   {
     title: "AI-Powered System for Cyber Incidents Detection and Response in Cloud",
-    description: "An AI-powered system designed to efficiently detect and respond to cyber incidents in cloud environments, leveraging machine learning for threat analysis and automated response mechanisms.",
+    description:
+      "An AI-powered cybersecurity system designed to detect potential cyber incidents in cloud environments and support threat analysis and incident response.",
     features: [
-      "Real-time Cyber Threat Detection using AI/ML Models",
-      "Automated Incident Response in Cloud Environments",
-      "Anomaly Detection & Behavioral Analysis",
-      "Comprehensive Dashboard for Security Monitoring"
+      "AI/ML-Based Cyber Threat Detection",
+      "Cloud Incident Analysis and Response",
+      "Anomaly Detection and Behavioral Analysis",
+      "Security Monitoring Dashboard",
     ],
-    techStack: ["Python", "Machine Learning", "Cloud Security", "AI", "Threat Detection", "Automation"],
+    techStack: [
+      "Python",
+      "Machine Learning",
+      "Cloud Security",
+      "AI",
+      "Threat Detection",
+      "Automation",
+    ],
     github: "https://github.com/Balu5G7/BaluAI",
     live: "#",
-    gradient: "from-red-500 via-orange-500 to-yellow-500"
-  }
+    gradient: "from-red-500 via-orange-500 to-yellow-500",
+  },
 ];
 
 export const education: Education[] = [
